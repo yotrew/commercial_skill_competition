@@ -1,0 +1,4 @@
+3
+Bigtable timestamps are integers.
+Each cell in a Bigtable can contain multiple versions of the same data; these versions are indexed by timestamp.
+It stood on a hill overlooking the village, some of its windows boarded, tiles missing from its roof, and ivy spreaDitng unchecked over its face.

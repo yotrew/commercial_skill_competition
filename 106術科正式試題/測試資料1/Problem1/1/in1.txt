@@ -1,0 +1,4 @@
+3
+This is a sample file.
+Hello World!!
+SOS!
