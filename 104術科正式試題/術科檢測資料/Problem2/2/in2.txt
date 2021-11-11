@@ -1,0 +1,4 @@
+3
+abcba
+abccba
+abcab
