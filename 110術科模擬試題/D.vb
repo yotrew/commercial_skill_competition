@@ -14,10 +14,10 @@ Public Class Test
 		 
 		 for i=0 to in1.length-1
 			'b=Integer.parse(in1(i))
-			b=in1(i)
-			if  not chem.contains(b) then
-				chem.add(b)
-			end if
+			'b=in1(i)
+			'if  not chem.contains(b) then
+				chem.add(in1(i))
+			'end if
 		 next
 		 console.writeline(chem.count())
 	End Sub
