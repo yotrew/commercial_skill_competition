@@ -2,6 +2,8 @@
 #Problem L 質數
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
+
 '''
 1.建質數表(比較不會TLE)
 2.取中間C*2個:

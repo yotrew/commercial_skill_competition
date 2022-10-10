@@ -2,6 +2,7 @@
 #Problem K 求餘數
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 '''
 照題目說明做,但
 (B^P) mod M = (B^(P/2) mod M) × (B^(P/2) mod M)

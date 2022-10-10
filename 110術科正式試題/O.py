@@ -1,9 +1,10 @@
 #110商業技藝競賽正式試題
-#Problem O 最長共同⼦序列LCS(Longest common subsequence
+#Problem O 最長共同子序列LCS(Longest common subsequence)
 #Author: Yotrew Wing
 #2021/12/02
 #按照題目給於的說明應該就可以推出規則
 #因為只要輸出最長有多長,因此使用DP方式來解
+#https://github.com/yotrew/commercial_skill_competition
 
 x=input().strip()#測資應該沒那麼OOXX吧,給的第1個字串應該都會比第2個長
 y=input().strip()

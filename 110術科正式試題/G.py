@@ -1,8 +1,8 @@
 #110商業技藝競賽正式試題
 #Problem G 猜數字
-
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 '''
 要處理不同條件(狀況)
 '''

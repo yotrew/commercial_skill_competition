@@ -1,7 +1,9 @@
 #110商業技藝競賽正式試題
-#Problem R 條條⼤路通羅⾺
+#Problem R 條條大路通羅馬
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
+
 '''
 DFS
 '''

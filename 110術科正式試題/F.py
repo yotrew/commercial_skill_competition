@@ -1,8 +1,8 @@
 #110商業技藝競賽正式試題
 #Problem F 抱怨值問題
-
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 
 n=int(input())
 while True:

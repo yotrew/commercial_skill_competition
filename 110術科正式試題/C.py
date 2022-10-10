@@ -2,6 +2,7 @@
 #Problem C 所有位數加減加減
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 while True:
     try:
         num=list(map(int,list(input())))

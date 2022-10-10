@@ -1,7 +1,9 @@
 #110商業技藝競賽正式試題
-#Problem Q 果⼦堆合併
+#Problem Q 果子堆合併
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
+
 '''
 Huffman Tree
 (*第3組測資少了3個:32,59,60*)

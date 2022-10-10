@@ -1,9 +1,8 @@
 #110商業技藝競賽正式試題
 #Problem I 123
-
 #Author: Yotrew Wing
 #2021/12/02
-
+#https://github.com/yotrew/commercial_skill_competition
 n=int(input())
 for i in range(n):
     word=input().strip()

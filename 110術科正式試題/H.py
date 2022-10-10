@@ -1,8 +1,8 @@
 #110商業技藝競賽正式試題
 #Problem H 校驗和
-
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 '''
 按照題目方法做
 16進位,10進位,2進位的加法,除法,乘法都會是一樣

@@ -1,5 +1,6 @@
 /*
 DOMjudge會過版
+//https://github.com/yotrew/commercial_skill_competition
 */
 #include<stdio.h>
 #include<string.h>

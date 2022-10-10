@@ -2,6 +2,7 @@
 #Problem D 最⼤偶數和
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 '''
 排序與總和
 '''

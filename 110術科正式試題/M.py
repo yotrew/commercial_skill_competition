@@ -1,8 +1,8 @@
 #110商業技藝競賽正式試題
 #Problem M 矩陣的直積
-
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 
 matrix=[[0 for i in range(20*20+1)] for j in range(20*20+1)]
 while True:

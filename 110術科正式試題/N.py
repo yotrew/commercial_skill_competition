@@ -2,6 +2,7 @@
 #Problem N 字串編輯距離
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 '''
 LCS的變形
 '''

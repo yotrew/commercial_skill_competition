@@ -2,9 +2,11 @@
 #Problem J 噁爛數
 #Author: Yotrew Wing
 #2021/12/02
+#https://github.com/yotrew/commercial_skill_competition
 '''
 除以2,3,5後若為1就是噁爛數
 若不是就有不是2,3,5的因數且應該也為質數
+(1應該不是噁爛數吧??---1竟然是噁爛數,在J2的測資有1)
 '''
 prime=[2,3,5]
 while True:
