@@ -2,7 +2,7 @@
 #Problem B4 閏年
 #Author: Yotrew Wing
 #2021/10/18
-
+#https://github.com/yotrew/commercial_skill_competition
 while True:
     year=int(input())
     if(year==0):

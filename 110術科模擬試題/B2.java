@@ -1,3 +1,6 @@
+/*
+#https://github.com/yotrew/commercial_skill_competition
+*/
 import java.util.*;
 
 public class B2 {

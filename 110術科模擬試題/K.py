@@ -4,6 +4,7 @@
 #因為只要輸出最長有多長,因此使用DP方式來解
 #Author:Yotrew
 #20210628
+#https://github.com/yotrew/commercial_skill_competition
 import pprint
 
 n=int(input())

@@ -1,3 +1,4 @@
+//#https://github.com/yotrew/commercial_skill_competition
 import java.util.*;
 public class G {
 	static ArrayList<String> gcode = new ArrayList<String>(); 

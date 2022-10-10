@@ -1,5 +1,5 @@
-#110選手最原始答案修改
-
+#110雄商技藝競賽選手最原始答案修改
+#https://github.com/yotrew/commercial_skill_competition
 import sys
 times=0
 flag=False#旗標

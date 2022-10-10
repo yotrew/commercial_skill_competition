@@ -2,7 +2,7 @@
 #Problem G 格雷碼（Gray Code）
 #Author: Yotrew Wing
 #2021/10/18
-
+#https://github.com/yotrew/commercial_skill_competition
 n=int(input())
 gcode=[]
 def gray_code(n):

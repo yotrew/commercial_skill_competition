@@ -2,6 +2,7 @@
 #Problem #A 三數有權重的相加
 #Author: Yotrew Wing
 #2021/10/18
+#https://github.com/yotrew/commercial_skill_competition
 while True:
     try:
         n=list(map(int,input().split()))

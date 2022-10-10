@@ -1,3 +1,4 @@
+//#https://github.com/yotrew/commercial_skill_competition
 #include <iostream>
 #include <vector>
 #include <string>     // std::string, std::stoi

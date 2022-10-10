@@ -6,7 +6,7 @@
 #Problem H 網段網路位址和網段廣播位址
 #Author: Yotrew Wing
 #2021/10/18
-
+#https://github.com/yotrew/commercial_skill_competition
 '''
 #同106商業技藝競賽正式試題Problem 3-1,多一個網路位址
 2進位運算和10進位運算沒什麼不同

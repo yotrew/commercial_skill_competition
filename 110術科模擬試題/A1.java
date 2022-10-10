@@ -1,4 +1,8 @@
-
+/*
+/*
+https://github.com/yotrew/commercial_skill_competition
+*/
+*/
 import java.lang.*;
 import java.io.Console;
 public class A1{

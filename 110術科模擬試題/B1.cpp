@@ -1,3 +1,10 @@
+/*
+#110商業技藝競賽模擬試題
+#Problem B1 閏年
+#Author: Yotrew Wing
+#2021/10/18
+#https://github.com/yotrew/commercial_skill_competition
+*/
 #include <iostream>
 using namespace std;
 int main(){

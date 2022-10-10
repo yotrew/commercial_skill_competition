@@ -1,3 +1,14 @@
+/*
+#104商業技藝競賽正式試題
+#Problem 4：資料結構—樹 子題 1：輸出二元樹的後序拜訪的結果。(程式執行限制時間: 2 秒)
+#Author:Yotrew
+#20210711
+#110商業技藝競賽模擬試題
+#Problem L 二元樹的前序拜訪/二元樹的後序拜訪
+#Author: Yotrew Wing
+#2021/10/18
+#https://github.com/yotrew/commercial_skill_competition
+*/
 import java.util.*;
 import java.lang.*;
 public class L2 {

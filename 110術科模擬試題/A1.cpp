@@ -1,3 +1,6 @@
+/*
+https://github.com/yotrew/commercial_skill_competition
+*/
 #include <iostream>
 using namespace std;
 int main(){

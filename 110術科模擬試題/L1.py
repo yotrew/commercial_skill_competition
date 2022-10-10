@@ -6,7 +6,7 @@
 #Problem L 二元樹的前序拜訪/二元樹的後序拜訪
 #Author: Yotrew Wing
 #2021/10/18
-
+#https://github.com/yotrew/commercial_skill_competition
 n=int(input())
 tree=[]
 tr=[]#追踨結果,全域變數

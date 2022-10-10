@@ -1,4 +1,5 @@
 #I 矩陣乘法--不會因為測資格式問題而run-time error版
+#https://github.com/yotrew/commercial_skill_competition
 while True:
     try: 
         a,b,c,d=list(map(int,input().split()))

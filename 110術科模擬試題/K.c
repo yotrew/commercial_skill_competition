@@ -1,3 +1,12 @@
+/*
+#107商業技藝競賽模擬試題
+#Problem 4： 子題 1：最長共同子序列(Longest common subsequence)。
+#按照題目給於的說明應該就可以推出規則
+#因為只要輸出最長有多長,因此使用DP方式來解
+#Author:Yotrew
+#20210628
+#https://github.com/yotrew/commercial_skill_competition
+*/
 #include <stdio.h>
 #include <string.h>
 #define MIN(a,b) (((a)<(b))?(a):(b))

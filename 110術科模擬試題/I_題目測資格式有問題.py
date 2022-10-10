@@ -2,7 +2,7 @@
 #Problem #I 矩陣乘法
 #Author: Yotrew Wing
 #2021/10/18
-
+#https://github.com/yotrew/commercial_skill_competition
 while True:
     try: 
         a,b,c,d=list(map(int,input().split()))
