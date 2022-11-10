@@ -34,24 +34,25 @@ for i in range(ntime):
         matrix.append(list(map(int,sys.stdin.readline().strip().split(" "))))
     
     values=[[inf for a in n_l] for b in m_l]
-
+    visisted=[[False for a in n_l] for b in m_l]
         
     values[0][0]=matrix[0][0]
     pq=[]
     heapq.heappush(pq,[values[0][0],0,0])
 
     while pq:
-        value,x,y=heapq.heappop(pq)
+        value,row,col=heapq.heappop(pq)
+        visisted[row][col]=True
 
         for c in range(4):
-            nx,ny=x+direct[c],y+direct[c+1]
-            if nx<0 or ny<0 or nx>=n or ny>=m :#or visisted[ny][nx]==1:
+            n_col,n_row=col+direct[c],row+direct[c+1]
+            if n_col<0 or n_row<0 or n_col>=n or n_row>=m or visisted[n_row][n_col]:
                 continue
-            val=value+matrix[ny][nx]
+            val=value+matrix[n_row][n_col]
 
-            if values[ny][nx]>val:
-                values[ny][nx]=val
-                heapq.heappush(pq,[val,nx,ny])
+            if values[n_row][n_col]>val:
+                values[n_row][n_col]=val
+                heapq.heappush(pq,[val,n_row,n_col])
     sys.stdout.write(f"{values[m-1][n-1]}\n")
 
  
