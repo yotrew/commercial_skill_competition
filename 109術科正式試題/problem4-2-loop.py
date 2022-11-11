@@ -4,9 +4,7 @@
 #用2維的會爆,且不會有一對多個(所以此題就已經有所限制),所只需1維
 n=int(input())
 
-import time
-# 開始測量
-start = time.time()
+
 for i in range(0,n):
     N=int(input())
     paths=[0 for i in range(0,N+1)] #路徑列表
@@ -21,7 +19,7 @@ for i in range(0,n):
     for j in range(1,N+1):#從每一點出發,找出此點最大寄件數
         visited=visited1.copy()#
         visited[0]=visited[j]=1
-            next_node=paths[j]
+        next_node=paths[j]
         cost=0
         #print(next_node,end="-->")
         while visited[next_node]==0:
@@ -36,7 +34,4 @@ for i in range(0,n):
             max_cost_node = j
     print(max_cost_node)
 
-# 結束測量
-end = time.time()
-# 輸出結果
-print("執行時間：%f 秒" % (end - start))
+
