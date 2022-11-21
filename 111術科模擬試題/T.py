@@ -12,8 +12,8 @@
 tree=list(input().split(","))
 last_node=len(tree)
 
-def traverse(node,out_str,last_node): #DFS-traverse
-    global tree
+def traverse(node,out_str): #DFS-traverse
+    global tree,last_node
     if node >= last_node or tree[node]=="null":
         return
     out_str.append(tree[node])
@@ -28,8 +28,8 @@ def traverse(node,out_str,last_node): #DFS-traverse
         return
     
     #拜訪左子樹
-    traverse(node*2+1,out_str.copy(),last_node)
+    traverse(node*2+1,out_str.copy())
     #拜訪右子樹
-    traverse(node*2+2,out_str.copy(),last_node)
+    traverse(node*2+2,out_str.copy())
     
-traverse(0,[],last_node) #從root開始traverse
+traverse(0,[]) #從root開始traverse
