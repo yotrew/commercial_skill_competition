@@ -23,9 +23,14 @@ def traverse(node,out_str): #DFS-traverse
         print("->".join(out_str))
         return
     
-    if tree[(node*2+1)]=="null" and tree[(node*2+2)]=="null":
-        print("->".join(out_str))
-        return
+    if (node*2+2)>=last_node:
+        if tree[(node*2+1)]=="null":
+            print("->".join(out_str))
+            return
+    else:
+        if tree[(node*2+1)]=="null" and tree[(node*2+2)]=="null":
+            print("->".join(out_str))
+            return
     
     #拜訪左子樹
     traverse(node*2+1,out_str.copy())
