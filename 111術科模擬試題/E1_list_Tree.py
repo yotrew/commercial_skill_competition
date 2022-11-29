@@ -23,6 +23,8 @@ while True:
                 out_str=[]
                 if tree[current_node][0]!=None: #有root
                     q=[current_node]
+                else:
+                    q=[]
                     
                 while len(q)>0:
                     current_node=q[0]
@@ -34,6 +36,7 @@ while True:
                     if tree[current_node][2]!=None:
                         q.append(tree[current_node][2])
 
+                #print(tree)
                 if complete==0 and len(out_str)==len(tree):
                     print(" ".join(out_str))
                 else:
@@ -43,6 +46,8 @@ while True:
                 complete=0
                 continue #traverse完後繼續讀資料
             if data[1]=='': #root
+                if tree[0][0]!=None:
+                    complete=1 #輸入重複點
                 tree[0][0]=data[0]
             else:
                 pos=0
@@ -56,7 +61,7 @@ while True:
                 if tree[pos][0]!=None:
                     complete=1 #輸入重複點
                 tree[pos][0]=data[0]   
-    except:
+    except :
         break
         
 '''
