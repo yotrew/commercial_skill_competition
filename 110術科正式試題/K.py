@@ -20,12 +20,11 @@ def BP(B,P,M):
     #print(B,P,M)
     if P==1:
         return B
+    x=BP(B,P//2,M)
     if P%2==1: #奇數
-        x=BP(B,P//2,M) #-->不要return (BP(B,1,M)%M)*(BP(B,P//2,M)%M)*(BP(B,P//2,M)%M)
-                       #    這樣就少掉一次的遞迴
-        return (BP(B,1,M)%M)*(x%M)*(x%M)
+        return (B)*(x%M)*(x%M)
+        #return (B%M)*(x%M)*(x%M)    
     else:
-        x=BP(B,P//2,M)
         return (x%M)*(x%M)
     
 while True:
