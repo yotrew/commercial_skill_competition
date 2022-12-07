@@ -1,7 +1,7 @@
 #110商業技藝競賽正式試題
 #Problem M 矩陣的直積
 #Author: Yotrew Wing
-#2021/12/02
+#2022/12/07
 #https://github.com/yotrew/commercial_skill_competition
 '''
 先推出行列變化,再觀察...
@@ -37,9 +37,9 @@ for a in range():
                 [][]=A[a][b]*B[c][d]
 
 '''
+#直接輸出版本
 
-#先建立大矩陣--其他語言的寫法
-matrix=[[0 for i in range(20*20+1)] for j in range(20*20+1)]
+
 while True:
     try:
         A=[]
@@ -57,17 +57,10 @@ while True:
             for c in range(p):
                 for b in range(n):
                     for d in range(r):
-                        matrix[a*p+c][b*r+d]=A[a][b]*B[c][d]
+                        print(A[a][b]*B[c][d],end=" ") #最後一個空白評測系統不會做比對...此題來說
+                print()
 
-        #資料輸出(可以在上面就直接輸出,就不用建大矩陣了-->matrix[a*p+c][b*r+d]=A[a][b]*B[c][d])
-        outs=""
-        for a in range(m):
-            for c in range(p):
-                for b in range(n):
-                    for d in range(r):
-                        outs+=str(matrix[a*p+c][b*r+d])+" "
-                print(outs[:-1])
-                outs=""
+
     except Exception as e:
         break
 
