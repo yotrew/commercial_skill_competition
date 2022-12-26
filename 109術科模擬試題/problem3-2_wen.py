@@ -1,7 +1,7 @@
 #109商業技藝競賽模擬試題
 #Problem 3：子題2：時間計算
 #Author: wen
-#2022/12/026
+#2022/12/26
 #https://github.com/yotrew/commercial_skill_competition
 '''
 
