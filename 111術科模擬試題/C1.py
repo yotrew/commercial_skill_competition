@@ -31,6 +31,8 @@ while True:
     ft=ftable.copy()
     for i in range(plen):
         x=n-prime_table[i]
+        if x<0:
+            continue
         if prime_table2[x]==True and ft[x]!=True:
             cnt+=1
         if prime_table[i]>n:
