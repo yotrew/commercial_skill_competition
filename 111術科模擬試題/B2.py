@@ -8,7 +8,7 @@ n=int(input())
 for i in range(n):
     edge=list(map(int,input().split(" ")))
     edge.sort()
-    if sum(edge[0:3])<edge[3]:
+    if sum(edge[0:3])<=edge[3]:
         print("banana")
     elif edge[0]==edge[1] and edge[1]==edge[2] and edge[2]==edge[3]:
         print("square")
